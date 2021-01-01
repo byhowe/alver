@@ -1,0 +1,17 @@
+[package]
+name = "alver"
+version = "0.1.0"
+authors = ["B. Howe <37745048+byhowe@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "libalver"
+path = "libalver/lib.rs"
+
+[[bin]]
+name = "alver-server"
+path = "server/main.rs"
+
+[dependencies]
